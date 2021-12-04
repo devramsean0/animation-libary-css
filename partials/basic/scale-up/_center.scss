@@ -1,0 +1,12 @@
+.scaleup-center {
+    animation: scaleup-center 1s ease 0s 1 normal forwards;
+}
+@keyframes scaleup-center {
+    0% {
+      transform: scale(0.5);
+    }
+    
+    100% {
+      transform: scale(1);
+    }
+  }

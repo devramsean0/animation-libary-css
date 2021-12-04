@@ -1,0 +1,14 @@
+.scaleup-horizontal-left {
+    animation: scaleup-horizontal-left 1s ease 0s 1 normal forwards;
+}
+@keyframes scaleup-horizontal-left {
+    0% {
+      transform: scaleX(0.4);
+      transform-origin: 0% 0%;
+    }
+  
+    100% {
+      transform: scaleX(1);
+      transform-origin: 0% 0%;
+    }
+  }

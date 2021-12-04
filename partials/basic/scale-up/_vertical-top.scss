@@ -1,0 +1,14 @@
+.scaleup-vertical-top {
+    animation: scaleup-vertical-top 1s ease 0s 1 normal forwards;
+}
+@keyframes scaleup-vertical-top {
+    0% {
+      transform: scaleY(0.4);
+      transform-origin: 100% 0%;
+    }
+  
+    100% {
+      transform: scaleY(1);
+      transform-origin: 100% 0%;
+    }
+  }

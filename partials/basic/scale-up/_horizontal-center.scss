@@ -1,0 +1,12 @@
+.scaleup-horizontal-center {
+    animation: scaleup-horizontal-center 1s ease 0s 1 normal forwards;
+}
+@keyframes scaleup-horizontal-center {
+    0% {
+      transform: scaleX(0.4);
+    }
+  
+    100% {
+      transform: scaleX(1);
+    }
+  }
