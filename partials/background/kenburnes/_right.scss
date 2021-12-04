@@ -1,0 +1,14 @@
+.kenburnes-right {
+    animation: kenburnesright 5s ease 0s 1 normal forwards;
+}
+@keyframes kenburnesright {
+    0% {
+      transform: scale(1) translate(0, 0);
+      transform-origin: 84% 50%;
+    }
+  
+    100% {
+      transform: scale(1.25) translateX(20px);
+      transform-origin: right;
+    }
+  }
