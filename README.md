@@ -1,2 +1,2 @@
 # animation-libary
- Animation Libary!
+ Animation Libary For CSS!
