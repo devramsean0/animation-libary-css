@@ -2015,4 +2015,96 @@
             transform-origin: right top;
   }
 }
+
+.pan-bottom {
+  -webkit-animation: panbottom 5s ease 0s 1 normal forwards;
+          animation: panbottom 5s ease 0s 1 normal forwards;
+}
+
+@-webkit-keyframes panbottom {
+  0% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
+}
+
+@keyframes panbottom {
+  0% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
+}
+
+.pan-left {
+  -webkit-animation: panleft 5s ease 0s 1 normal forwards;
+          animation: panleft 5s ease 0s 1 normal forwards;
+}
+
+@-webkit-keyframes panleft {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes panleft {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.pan-right {
+  -webkit-animation: panright 5s ease 0s 1 normal forwards;
+          animation: panright 5s ease 0s 1 normal forwards;
+}
+
+@-webkit-keyframes panright {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes panright {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.pan-top {
+  -webkit-animation: pantop 5s ease 0s 1 normal forwards;
+          animation: pantop 5s ease 0s 1 normal forwards;
+}
+
+@-webkit-keyframes pantop {
+  0% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+@keyframes pantop {
+  0% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
 /*# sourceMappingURL=main.css.map */

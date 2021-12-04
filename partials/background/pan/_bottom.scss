@@ -1,0 +1,12 @@
+.pan-bottom {
+    animation: panbottom 5s ease 0s 1 normal forwards;
+}
+@keyframes panbottom {
+    0% {
+      background-position: 50% 0%;
+    }
+  
+    100% {
+      background-position: 50% 100%;
+    }
+  }
