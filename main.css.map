@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,iBAAiB,CAAC;EACd,SAAS,EAAE,sCAAsC;CACpD;;AACD,UAAU,CAAV,SAAU;EACN,EAAE;EACF,GAAG;EACH,IAAI;IACF,OAAO,EAAE,CAAC;;EAGZ,GAAG;EACH,GAAG;IACD,OAAO,EAAE,CAAC;;;;ACZhB,AAAA,iBAAiB,CAAC;EACd,SAAS,EAAE,sCAAsC;CACpD;;AACD,UAAU,CAAV,SAAU;EACN,EAAE;IACA,OAAO,EAAE,CAAC;;EAGZ,GAAG;IACD,OAAO,EAAE,GAAG;;EAGd,IAAI;IACF,OAAO,EAAE,CAAC",
     "sources": [
-        "main.scss"
+        "main.scss",
+        "partials/attention/blink/_variation1.scss",
+        "partials/attention/blink/_variation2.scss"
     ],
     "names": [],
     "file": "main.css"

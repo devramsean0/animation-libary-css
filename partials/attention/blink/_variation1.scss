@@ -1,0 +1,15 @@
+.blink-variation1 {
+    animation: blinkvar1 2s ease 0s 1 normal forwards;
+}
+@keyframes blinkvar1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }

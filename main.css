@@ -1,1 +1,58 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.blink-variation1 {
+  -webkit-animation: blinkvar1 2s ease 0s 1 normal forwards;
+          animation: blinkvar1 2s ease 0s 1 normal forwards;
+}
+
+@-webkit-keyframes blinkvar1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinkvar1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.blink-variation2 {
+  -webkit-animation: blinkvar2 2s ease 0s 1 normal forwards;
+          animation: blinkvar2 2s ease 0s 1 normal forwards;
+}
+
+@-webkit-keyframes blinkvar2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blinkvar2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=main.css.map */
