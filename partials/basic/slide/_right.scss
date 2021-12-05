@@ -1,0 +1,12 @@
+.slide-right {
+    animation: slide-right 1s ease 0s 1 normal forwards;
+}
+@keyframes slide-right {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(100px);
+    }
+  }
