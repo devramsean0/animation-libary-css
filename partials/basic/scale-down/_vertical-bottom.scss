@@ -1,0 +1,14 @@
+.scaledown-vertical-bottom {
+    animation: scaledown-vertical-bottom 1s ease 0s 1 normal forwards;
+}
+@keyframes scaledown-vertical-bottom {
+    0% {
+      transform: scaleY(1);
+      transform-origin: 0% 100%;
+    }
+  
+    100% {
+      transform: scaleY(0.4);
+      transform-origin: 0% 100%;
+    }
+  }
