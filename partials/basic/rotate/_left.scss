@@ -1,0 +1,12 @@
+.rotate-left {
+    animation: rotate-left 1s ease 0s 1 normal forwards; 
+}
+@keyframes rotate-left {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }

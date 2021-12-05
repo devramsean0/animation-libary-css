@@ -1,0 +1,14 @@
+.rotate-right {
+    animation: rotate-right 1s ease 0s 1 normal forwards;
+}
+@keyframes rotate-right {
+    0% {
+      transform: rotate(0);
+      transform-origin: right;
+    }
+  
+    100% {
+      transform: rotate(360deg);
+      transform-origin: right;
+    }
+  }
