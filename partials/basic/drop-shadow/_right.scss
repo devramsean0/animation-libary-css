@@ -1,0 +1,12 @@
+.dropshadow-right {
+    animation: dropshadow-right 1s ease 0s 1 normal forwards;
+}
+@keyframes dropshadow-right {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  
+    100% {
+      box-shadow: 12px 0 20px -12px rgba(0, 0, 0, 0.35);
+    }
+  }
